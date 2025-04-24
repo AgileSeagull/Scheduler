@@ -66,25 +66,25 @@ All plots are available in [`plots/`](./plots).
 Below are the key benchmark results:
 
 ### 🔹 Average Response Time
-![Average Response Time](plots/plots/average_response_time.png)
+![Average Response Time](plots/average_response_time.png)
 
 ### 🔹 Average Turnaround Time
-![Average Turnaround Time](plots/plots/average_turnaround_time.png)
+![Average Turnaround Time](plots/average_turnaround_time.png)
 
 ### 🔹 Average Waiting Time
-![Average Waiting Time](plots/plots/average_waiting_time.png)
+![Average Waiting Time](plots/average_waiting_time.png)
 
 ### 🔹 Fairness Index
-![Fairness Index](plots/plots/fairness_index.png)
+![Fairness Index](plots/fairness_index.png)
 
 ### 🔹 Load Balancing Efficiency
-![Load Balancing Efficiency](plots/plots/load_balancing_efficiency.png)
+![Load Balancing Efficiency](plots/load_balancing_efficiency.png)
 
 ### 🔹 Starvation Count
-![Starvation Count](plots/plots/starvation_count.png)
+![Starvation Count](plots/starvation_count.png)
 
 ### 🔹 Throughput
-![Throughput](plots/plots/throughput.png)
+![Throughput](plots/throughput.png)
 
 ---
 
@@ -104,5 +104,3 @@ gcc reference-paper-algo.c -o ../bin/REF_PAPER_ALGO
 - **CFS** ensures the highest **fairness** across most scenarios.  
 - **Reference Paper Algorithm** shows balanced performance but struggles with starvation in some cases.  
 - **Adaptive Priority Scheduler** adapts well to **real-time constraints**, while **CFS** remains optimal for fairness.  
-
-
