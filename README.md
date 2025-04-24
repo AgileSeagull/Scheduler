@@ -90,12 +90,19 @@ Below are the key benchmark results:
 
 ## How to Run
 
-Compile all schedulers:
 ```bash
-cd src
-gcc DPS-DTQ.c -o ../bin/DPS-DTQ
-gcc CFS.c -o ../bin/CFS
-gcc reference-paper-algo.c -o ../bin/REF_PAPER_ALGO
+# Clone repo
+git clone https://github.com/AgileSeagull/Scheduler.git
+cd Scheduler
+
+# Build all executables
+make
+
+# Run benchmark script (optional)
+make outputs
+
+# Clean build files
+make clean
 ```
 
 ## Key Findings
